@@ -59,7 +59,7 @@ const EXTRA_LINKS = [
   {
     titre: "Bracelets d'autonomie",
     fichier: "pdfs/bracelets-autonomie.pdf"
-  }
+  },
     {
     titre: "Je n'arrive pas à faire un exercice",
     fichier: "pdfs/affiche_recherche.pdf"
