@@ -24,10 +24,6 @@ const SITE_PASSWORD = "maths2026";
 
 const SITE_DATA = {
   "6e": [
-      {
-    titre: "Matériel",
-    fichier: "pdfs/6e/6e_materiel.html"
-  },
     {
       titre: "Chapitre 1 — Nombres entiers",
       lecon: "pdfs/6e/01/6e_01_lecon.html",
@@ -36,10 +32,6 @@ const SITE_DATA = {
     }
   ],
   "5e": [
-          {
-    titre: "Matériel",
-    fichier: "pdfs/5e/5e_materiel.html"
-  },
     {
       titre: "Chapitre 1 — Nombres relatifs",
       lecon: "pdfs/5e/01/5e_01_Lecon.html",
@@ -48,10 +40,6 @@ const SITE_DATA = {
     }
   ],
   "4e": [
-          {
-    titre: "Matériel",
-    fichier: "pdfs/4e/4e_materiel.html"
-  },
     {
       titre: "Chapitre 1 — Nombres relatifs",
       lecon: "pdfs/4e/01/4e_01_Lecon.pdf",
@@ -59,6 +47,16 @@ const SITE_DATA = {
       flash: "pdfs/4e/01/4e_01_Flash.pdf"
     }
   ]
+};
+
+/*
+  MATERIEL_LINKS — un lien "Matériel" par niveau, affiché en haut de la page
+  du niveau, au-dessus du premier chapitre.
+*/
+const MATERIEL_LINKS = {
+  "6e": "6e_materiel.html",
+  "5e": "5e_materiel.html",
+  "4e": "4e_materiel.html"
 };
 
 /*
