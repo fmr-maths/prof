@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maths — Ressources de cours</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Maths — Ressources</h1>
+    <div class="sub">Leçons, corrections et questions flash</div>
+  </header>
+  <nav class="crumbs" id="crumbs"></nav>
+  <main id="main"></main>
+
+  <div id="gate" class="gate" style="display:none">
+    <form id="gate-form">
+      <label for="gate-input">Mot de passe</label>
+      <input type="password" id="gate-input" autocomplete="off" autofocus>
+      <button type="submit" class="btn-submit">Entrer</button>
+      <p id="gate-error" class="gate-error" style="display:none">Mot de passe incorrect.</p>
+    </form>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
