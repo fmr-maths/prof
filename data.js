@@ -41,10 +41,10 @@ const SITE_DATA = {
   ],
   "4e": [
     {
-      titre: "Chapitre 1 — Puissances",
-      lecon: "pdfs/4e/ch1-lecon.pdf",
-      corrections: "pdfs/4e/ch1-corrections.pdf",
-      flash: "pdfs/4e/ch1-flash.pdf"
+      titre: "Chapitre 1 — Nombres relatifs",
+      lecon: "pdfs/4e/01/4e_01_Lecon.pdf",
+      corrections: "pdfs/4e/01/4e_01_corr.pdf",
+      flash: "pdfs/4e/01/4e_01_Flash.pdf"
     }
   ]
 };
