@@ -36,6 +36,10 @@ const SITE_DATA = {
     }
   ],
   "5e": [
+          {
+    titre: "Matériel",
+    fichier: "pdfs/5e/5e_materiel.html"
+  },
     {
       titre: "Chapitre 1 — Nombres relatifs",
       lecon: "pdfs/5e/01/5e_01_Lecon.html",
@@ -44,6 +48,10 @@ const SITE_DATA = {
     }
   ],
   "4e": [
+          {
+    titre: "Matériel",
+    fichier: "pdfs/4e/4e_materiel.html"
+  },
     {
       titre: "Chapitre 1 — Nombres relatifs",
       lecon: "pdfs/4e/01/4e_01_Lecon.pdf",
