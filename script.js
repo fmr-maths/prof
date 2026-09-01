@@ -45,8 +45,8 @@ function renderLevel(main, crumbs, lvl) {
   const materielLink = (typeof MATERIEL_LINKS !== 'undefined') ? MATERIEL_LINKS[lvl] : null;
  
   const materielButton = materielLink ? `
-    <a class="level-card" href="${materielLink}" target="_blank" rel="noopener" style="margin-top:18px;">
-      Matériel
+    <a class="btn" href="${materielLink}" target="_blank" rel="noopener" style="display:inline-block; margin: 10px 0 22px; flex:none;">
+      Matériel de mathématiques
     </a>
   ` : '';
  
