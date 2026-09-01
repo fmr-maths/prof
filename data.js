@@ -57,7 +57,11 @@ const SITE_DATA = {
 */
 const EXTRA_LINKS = [
   {
-    titre: "Formulaire de calcul",
-    fichier: "pdfs/formulaire.pdf"
+    titre: "Bracelets d'autonomie",
+    fichier: "pdfs/bracelets-autonomie.pdf"
+  }
+    {
+    titre: "Je n'arrive pas à faire un exercice",
+    fichier: "pdfs/affiche_recherche.pdf"
   }
 ];
