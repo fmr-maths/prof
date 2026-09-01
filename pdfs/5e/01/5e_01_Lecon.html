@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>template_fiche</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 11pt;
+  color: #2c3e50;
+  background: #fff;
+  width: 794px;      /* = A4 à 96dpi */
+  margin: 0 auto;
+}
+
+@page { size: A4; margin: 0; }
+@media print { body { margin: 0; width: 794px; } }
+
+
+/* ════════════════════════════════════════
+   PALETTE — à remplacer pour chaque fiche
+   ════════════════════════════════════════
+
+   Recette : choisir une couleur principale par section.
+   Générer automatiquement les variantes avec ce calcul mental :
+     --X       = la couleur principale (hex)
+     --X-light = la même couleur très désaturée / très claire (fond de bloc)
+     --X-mid   = intermédiaire (rarement utilisé, optionnel)
+
+   Exemples de palettes prêtes à l'emploi :
+
+   ── Palette 1 : Terre / Mer / Soleil ──
+   --A: #B85C42;  --A-light: #F5E8E3;
+   --B: #2F5F8A;  --B-light: #DCE9F5;
+   --C: #C47A0A;  --C-light: #FDF4E0;
+
+   ── Palette 2 : Forêt / Brique / Ardoise ──
+   --A: #3A7D5C;  --A-light: #E0F2EA;
+   --B: #9C3D2E;  --B-light: #F7E5E2;
+   --C: #4A5568;  --C-light: #EDF2F7;
+
+   ── Palette 3 : Violet / Teal / Ambre ──
+   --A: #6B46A0;  --A-light: #EDE9F6;
+   --B: #2A8C8C;  --B-light: #E0F4F4;
+   --C: #B07D12;  --C-light: #FBF3DC;
+
+   ── Palette 4 : Rose / Marine / Vert sauge ──
+   --A: #C0446A;  --A-light: #F9E5EC;
+   --B: #1A3D6B;  --B-light: #D9E5F5;
+   --C: #5A7A5A;  --C-light: #E8F2E8;
+*/
+
+:root {
+/* ── Section A ── */
+--A:       #2A6EBB;
+--A-light: #E0ECFA;
+
+/* ── Section B ── */
+--B:       #2E8B57;
+--B-light: #DFF2E9;
+
+/* ── Section C ── */
+--C:       #D4A017;
+--C-light: #FDF3D0;
+
+  /* Couleur des cercles objectifs et bordure boîte objectifs */
+  --gold: #C0392B;
+
+  --dark:   #2c3e50;
+  --gray-bg:#F5F5F5;
+}
+
+
+/* ══════════════════
+   BANDEAU TITRE
+   ══════════════════ */
+.bandeau {
+  width: 794px;
+  height: 184px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #2c3e50 0%, #4a6278 100%);
+  /* Le dégradé sert de fallback si illus_bandeau.png est absent */
+}
+.bandeau-img {
+  position: absolute;
+  left: 0; top: 0; bottom: 0; right: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.bandeau-content {
+  position: absolute;
+  top: 0; right: 0; bottom: 0;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 10px 16px 10px 8px;
+  gap: 12px;
+}
+.bandeau-text {
+  text-align: right;
+
+}
+.bandeau-chapitre {
+  font-size: 9pt; font-weight: 700;
+  color: #C0392B;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.bandeau-titre {
+  font-size: 20pt; font-weight: 700;
+  color: #fff;
+  line-height: 1.1;
+  text-shadow:
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
+}
+
+/* Boîte objectifs */
+.bandeau-objectifs {
+  background: rgba(255,255,255,0.90);
+  border: 1.5px solid var(--gold);
+  border-radius: 8px;
+  padding: 7px 11px;
+  min-width: 220px;
+  max-width: 320px;
+  flex-shrink: 0;
+}
+.objectifs-titre {
+  font-size: 8pt; font-weight: 700;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+.objectifs-liste { list-style: none; }
+.objectifs-liste li {
+  font-size: 7.5pt;
+  color: #2c3e50;
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+.objectifs-liste li::before {
+  content: "";
+  display: inline-block;
+  width: 10px; height: 10px;
+  border: 1.5px solid var(--gold);
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+
+/* ══════════════════
+   CONTENU GLOBAL
+   ══════════════════ */
+.contenu {
+  padding: 9px 18px 10px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+
+/* ══════════════════
+   SECTION (carte)
+   ══════════════════ */
+.section {
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+  overflow: hidden;
+  border: 1.2px solid #ddd;
+}
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px;
+  color: white;
+  font-size: 10pt; font-weight: 700;
+}
+.sec-A .section-header { background: var(--A); }
+.sec-B .section-header { background: var(--B); }
+.sec-C .section-header { background: var(--C); }
+
+.section-badge {
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.22);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12pt; font-weight: 700;
+  flex-shrink: 0;
+}
+.section-titre { flex: 1; }
+.section-liens {
+  display: flex; gap: 6px;
+  font-size: 8pt; font-weight: 400;
+  color: white;
+  /* Recette liens : écrire simplement <span>📖 A p.36</span> <span>✋ 1 p.37</span>
+     Pas de cadre, pas de fond — texte blanc direct */
+}
+.section-body {
+  background: white;
+  padding: 7px 9px;
+}
+
+
+/* ══════════════════
+   MISES EN COLONNES
+   ══════════════════
+   Recette : choisir la grille adaptée au contenu.
+   .cols-half  → 50/50
+   .cols-1-2   → 1/3 + 2/3
+   .cols-2-3   → 2/5 + 3/5
+   Pour 3 colonnes égales : grid-template-columns: 1fr 1fr 1fr
+*/
+.cols-half { display: grid; grid-template-columns: 1fr 1fr;    gap: 9px; }
+.cols-1-2  { display: grid; grid-template-columns: 1fr 2fr;    gap: 9px; }
+.cols-2-3  { display: grid; grid-template-columns: 2fr 3fr;    gap: 9px; }
+.cols-5-2  { display: grid; grid-template-columns: 5fr 2fr;    gap: 9px; }
+
+/* ══════════════════════════════════
+   BLOCS
+   ══════════════════════════════════ */
+
+/* ── À retenir / Définition ──
+   Recette : changer le texte du .bloc-def-header
+   pour "❤ À retenir" ou "❤ Définition"           */
+.bloc-def { border-radius: 6px; overflow: hidden; margin-bottom: 5px; }
+.sec-A .bloc-def { border: 1.5px solid var(--A); }
+.sec-B .bloc-def { border: 1.5px solid var(--B); }
+.sec-C .bloc-def { border: 1.5px solid var(--C); }
+
+.bloc-def-header {
+  padding: 3px 8px;
+  font-size: 8pt; font-weight: 700;
+  color: white;
+}
+.sec-A .bloc-def-header { background: var(--A); }
+.sec-B .bloc-def-header { background: var(--B); }
+.sec-C .bloc-def-header { background: var(--C); }
+
+.bloc-def-body {
+  padding: 5px 8px;
+  font-size: 9pt; line-height: 1.4;
+  background: white;
+}
+
+/* ── Exercice à trous ── */
+.bloc-exercice {
+  border: 1.5px dashed #999;
+  border-radius: 6px;
+  padding: 6px 8px;
+  background: #F8F8F8;
+  font-size: 9pt; line-height: 1.7;
+}
+.bloc-exercice-label {
+  font-size: 8pt; font-weight: 700;
+  color: #555;
+  margin-bottom: 4px;
+}
+/* Trou de texte : ________ */
+.trou-ligne {
+  display: inline-block;
+  width: 48px;
+  border-bottom: 1.5px solid #666;
+  margin: 0 2px;
+  vertical-align: bottom;
+}
+
+/* ── Attention ── */
+.bloc-attention {
+  border: 1.5px solid #E07B00;
+  border-radius: 6px;
+  padding: 5px 8px;
+  background: #FFF8E6;
+  font-size: 9pt; line-height: 1.4;
+  margin-bottom: 5px;
+}
+.bloc-attention-label {
+  font-size: 8pt; font-weight: 700;
+  color: #C06000;
+  margin-bottom: 3px;
+}
+
+/* ── Ardoise (calcul posé) ──
+   Recette : dans .ardoise-corps, écrire le calcul en
+   texte brut avec <br>. La ligne "on remplace" est
+   une .ardoise-banniere à placer à l'endroit voulu. */
+.ardoise {
+  background: #2c3e50;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  font-family: 'Courier New', monospace;
+  font-size: 8.5pt;
+  line-height: 1.4;
+  color: #F0EAD6;
+}
+.ardoise-titre {
+  padding: 2px 10px;
+  background: #1a2634;
+  font-size: 7.5pt;
+  color: #aaa;
+  letter-spacing: 0.5px;
+}
+.ardoise-corps {
+  padding: 5px 10px;
+}
+.ardoise-banniere {
+  background: #E07B00;
+  color: white;
+  font-size: 8pt; font-weight: 700;
+  padding: 2px 10px;
+  display: block;
+  width: 100%;
+}
+.ardoise-resultat {
+  color: #7FD9A0;
+  /* Recette : entourer le résultat final avec
+     <span class="ardoise-resultat">…</span>  */
+}
+.ardoise-sep {
+  border: none;
+  border-top: 1px solid #4a6278;
+  margin: 3px 10px;
+}
+
+
+/* ══════════════════════════════════
+   FRACTIONS HTML
+   ══════════════════════════════════
+   Recette : <span class="frac sm col-A">
+               <span>3</span>
+               <span class="bar"></span>
+               <span>4</span>
+             </span>
+   Tailles : .sm (9pt) · rien (11pt) · .lg (12pt) · .xl (14pt)
+   Couleurs : .col-A .col-B .col-C .col-dk (sombre)
+*/
+.frac {
+  display: inline-flex; flex-direction: column;
+  align-items: center; vertical-align: middle;
+  margin: 0 2px; font-weight: 700; line-height: 1.15;
+}
+.frac span { display: block; text-align: center; }
+.frac .bar { width: 100%; border-top: 1.8px solid currentColor; margin: 2px 0; }
+.frac.sm { font-size: 9pt; }
+.frac.lg { font-size: 12pt; }
+.frac.xl { font-size: 14pt; }
+
+.col-A  { color: var(--A); }
+.col-B  { color: var(--B); }
+.col-C  { color: var(--C); }
+.col-dk { color: var(--dark); }
+
+
+/* ══════════════════
+   IMAGES
+   ══════════════════
+   Recette : toujours utiliser ce format.
+   width:100% s'adapte à la colonne automatiquement.
+   onerror masque l'image si le fichier est absent.   */
+.illus {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+
+/* ══════════════════
+   UTILITAIRES
+   ══════════════════ */
+p { margin-bottom: 3px; }
+.mt4  { margin-top: 4px; }
+.mb4  { margin-bottom: 4px; }
+.mb6  { margin-bottom: 6px; }
+.text-center { text-align: center; }
+.text-sm { font-size: 9pt; }
+</style>
+</head>
+<body>
+
+
+<!-- ═══════════════════════════════════════════
+     BANDEAU TITRE
+     ═══════════════════════════════════════════
+     Recette :
+     · Remplacer "Chapitre X" et "Titre"
+     · Modifier les objectifs (3 max pour tenir)
+     · illus_bandeau.png dans le même dossier
+     ─────────────────────────────────────────── -->
+<div class="bandeau">
+  <img src="illus_bandeau.png" alt="" class="bandeau-img" onerror="this.style.display='none'">
+  <div class="bandeau-content">
+    <div class="bandeau-text">
+      <div class="bandeau-chapitre">Chapitre 1</div>
+      <div class="bandeau-titre">Expression numérique(1)</div>
+    </div>
+    <div class="bandeau-objectifs">
+      <div class="objectifs-titre">🎯 Objectifs d'apprentissage</div>
+      <ul class="objectifs-liste">
+        <li>Additionner, soustraire, multiplier pour résoudre des problèmes.</li>
+        <li>Connaitre le sens et les situations d’emploi de ces opérations.</li>
+        <li>Enchainer des opérations.</li>
+        <li>Nommer un calcul, distinguer sommes et produits, termes et facteurs.</li>
+        <li>Connaitre et utiliser les priorités opératoires.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════
+     CONTENU
+     ═══════════════════════════════════════════ -->
+<div class="contenu">
+
+
+<!-- ═══ SECTION A ═══════════════════════════
+     Recette en-tête :
+     · Changer la lettre dans .section-badge
+     · Changer .sec-A en .sec-B ou .sec-C partout dans la section
+     · Liens : 📖 = leçon  ✋ = savoir-faire  (numéro + page)
+     ─────────────────────────────────────────── -->
+<div class="section sec-A">
+  <div class="section-header">
+    <div class="section-badge">A</div>
+    <div class="section-titre">Connaître le vocabulaire</div>
+    <div class="section-liens">
+      <span>📖 A & B p.14</span>&nbsp;&nbsp;<span>✋ 2 p.15</span>
+    </div>
+  </div>
+  <div class="section-body">
+
+
+    <!-- MISE EN COLONNES 50/50
+         Recette : remplacer .cols-half par .cols-1-2 ou .cols-2-3
+         si les colonnes ont des tailles différentes           -->
+    <div class="cols-5-2">
+
+      <!-- ── Colonne gauche ── -->
+      <div>
+
+        <!-- BLOC À RETENIR / DÉFINITION
+             Recette : changer "❤ Définition" en "❤ À retenir" si besoin -->
+        <div class="bloc-def">
+          <div class="bloc-def-header">❤ A retenir</div>
+          <div style="background:var(--A-light); padding:7px 8px;">
+
+            <!-- 3 cartes opération -->
+            <div style="display:grid; grid-template-columns:1fr 1fr 1fr 1fr; gap:6px; margin-bottom:8px;">
+
+              <div style="background:white; border:1.2px solid var(--A); border-radius:5px; padding:5px 6px; text-align:center;">
+                <div style="font-size:13pt; font-weight:700; color:var(--A);">+</div>
+                <div style="font-size:8pt; line-height:1.25;"><strong>somme</strong><br>résultat d'une addition</div>
+              </div>
+
+              <div style="background:white; border:1.2px solid var(--A); border-radius:5px; padding:5px 6px; text-align:center;">
+                <div style="font-size:13pt; font-weight:700; color:var(--A);">−</div>
+                <div style="font-size:8pt; line-height:1.25;"><strong>différence</strong><br>résultat d'une soustraction</div>
+              </div>
+
+              <div style="background:white; border:1.2px solid var(--A); border-radius:5px; padding:5px 6px; text-align:center;">
+                <div style="font-size:13pt; font-weight:700; color:var(--A);">×</div>
+                <div style="font-size:8pt; line-height:1.25;"><strong>produit</strong><br>résultat d'une multiplication</div>
+              </div>
+
+              <div style="background:white; border:1.2px solid var(--A); border-radius:5px; padding:5px 6px; text-align:center;">
+                <div style="font-size:13pt; font-weight:700; color:var(--A);">÷</div>
+                <div style="font-size:8pt; line-height:1.25;"><strong>quotient</strong><br>résultat d'une division</div>
+              </div>
+            </div>
+
+            <p>Une <strong>expression numérique</strong> est un enchainement d'opérations.</p>
+            <p>La <strong>nature</strong> d'une expression numérique correspond à la dernière opération effectuée.</p>
+          </div>
+        </div>
+
+        <!-- ILLUSTRATION GAUCHE
+             Recette : nommer le fichier illus_A.png, illus_B.png, etc.
+             selon la section. Mettre le fichier dans le même dossier. -->
+        
+
+      </div>
+
+      <!-- ── Colonne droite ── -->
+<!-- ── Colonne droite ── -->
+      <div>
+        <img src="illus_A.png" alt="" 
+            style="max-width:100%; max-width:100%; height:auto; display:block; border-radius:4px;"
+            onerror="this.style.display='none'">
+      </div>
+    <!-- Fin colonnes -->
+
+    </div>
+
+  </div><!-- fin section-body -->
+</div><!-- fin section A -->
+
+
+<!-- ═══ SECTION B ═══════════════════════════ -->
+<div class="section sec-B">
+  <div class="section-header">
+    <div class="section-badge">B</div>
+    <div class="section-titre">Respecter les priorités opératoires</div>
+    <div class="section-liens">
+      <span>📖 A p.14</span>&nbsp;&nbsp;<span>✋ 1 p.15</span>
+    </div>
+  </div>
+<div class="section-body">
+
+  <div class="cols-1-2">
+
+    <!-- ── Colonne gauche : méthode ── -->
+    <div>
+      <div style="border:1.5px solid var(--B); border-radius:6px; overflow:hidden;">
+        <div style="background:var(--B); padding:3px 8px;">
+          <span style="font-size:8pt; font-weight:700; color:white;">🔨 Méthode</span>
+        </div>
+        <div style="padding:8px 9px; display:flex; flex-direction:column; gap:6px;">
+
+          <div style="display:flex; align-items:flex-start; gap:8px; background:var(--B-light); border-radius:5px; padding:5px 7px;">
+            <div style="background:var(--B); color:white; width:20px; height:20px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:10pt; font-weight:700; flex-shrink:0;">1</div>
+            <p class="text-sm" style="margin:0;">On effectue d'abord les calculs entre <strong>parenthèses</strong>.</p>
+          </div>
+
+          <div style="display:flex; align-items:flex-start; gap:8px; background:var(--B-light); border-radius:5px; padding:5px 7px;">
+            <div style="background:var(--B); color:white; width:20px; height:20px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:10pt; font-weight:700; flex-shrink:0;">2</div>
+            <p class="text-sm" style="margin:0;">On effectue les <strong>multiplications</strong> et les <strong>divisions</strong>.</p>
+          </div>
+
+          <div style="display:flex; align-items:flex-start; gap:8px; background:var(--B-light); border-radius:5px; padding:5px 7px;">
+            <div style="background:var(--B); color:white; width:20px; height:20px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:10pt; font-weight:700; flex-shrink:0;">3</div>
+            <p class="text-sm" style="margin:0;">On effectue les <strong>additions</strong> et <strong>soustractions</strong> de gauche à droite.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Colonne droite : exemple ── -->
+    <div>
+      <div style="border:1.5px solid var(--B); border-radius:6px; overflow:hidden;">
+        <div style="background:var(--B); padding:3px 8px;">
+          <span style="font-size:8pt; font-weight:700; color:white;">💡 Exemples</span>
+        </div>
+        <div style="padding:5px 8px; font-size:9pt; background:var(--B-light);">
+          Calcule les expressions suivantes en respectant les priorités opératoires.
+        </div>
+
+        <!-- Ligne 1 : A et B -->
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; padding:7px 9px 4px 9px;">
+
+          <div>
+            <p class="text-sm">A = 54 × (3 + 2)</p>
+            <p class="text-sm" style="margin-top:6px;">A = 54 × <span style="text-decoration:underline; font-weight:700; color:var(--B);">(3 + 2)</span></p>
+            <p class="text-sm">A = <span style="text-decoration:underline; font-weight:700; color:var(--B);">54 × 5</span></p>
+            <p class="text-sm">A = 270</p>
+          </div>
+
+          <div>
+            <p class="text-sm">B = 7 + 3 × 5</p>
+            <p class="text-sm" style="margin-top:6px;">B = 7 + <span style="text-decoration:underline; font-weight:700; color:var(--B);">3 × 5</span></p>
+            <p class="text-sm">B = <span style="text-decoration:underline; font-weight:700; color:var(--B);">7 + 15</span></p>
+            <p class="text-sm">B = 22</p>
+          </div>
+
+        </div>
+
+        <!-- Séparateur -->
+        <hr style="border:none; border-top:1px dashed #ccc; margin:0 9px;">
+
+        <!-- Ligne 2 : C et D -->
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; padding:4px 9px 7px 9px;">
+
+          <div>
+            <p class="text-sm">C = 48 + 4 − 8</p>
+            <p class="text-sm" style="margin-top:6px;">C = <span style="text-decoration:underline; font-weight:700; color:var(--B);">48 + 4</span> − 8</p>
+            <p class="text-sm">C = <span style="text-decoration:underline; font-weight:700; color:var(--B);">52 − 8</span></p>
+            <p class="text-sm">C = 44</p>
+          </div>
+
+          <div>
+            <p class="text-sm">D = 8 × 1,4 × 10</p>
+            <p class="text-sm" style="margin-top:6px;">D = 8 × <span style="text-decoration:underline; font-weight:700; color:var(--B);">1,4 × 10</span></p>
+            <p class="text-sm">D = <span style="text-decoration:underline; font-weight:700; color:var(--B);">8 × 14</span></p>
+            <p class="text-sm">D = 112</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Image pleine largeur -->
+  <div style="margin-top:8px;">
+    <img src="illus_B.png" alt=""
+         style="max-width:100%; height:auto; display:block; border-radius:4px;"
+         onerror="this.style.display='none'">
+  </div>
+
+</div>
+</div><!-- fin section B -->
+
+<div class="cols-1-2" style="margin-top:6px;">
+
+  <!-- ── Colonne gauche : expression numérique et langage ── -->
+  <div class="bloc-exercice">
+    <div class="bloc-exercice-label">✏️ Écris en langage courant :</div>
+
+
+    <p class="text-sm">1. &nbsp; 12 − 5 &nbsp;=&nbsp;
+      <span class="trou-ligne" style="width:140px;"></span>
+    </p>
+
+    <p class="text-sm">2. &nbsp; 6 × 9 &nbsp;=&nbsp;
+      <span class="trou-ligne" style="width:140px;"></span>
+    </p>
+
+    <p class="text-sm" style="color:#555; font-weight:700; font-size: 8pt; margin-top:8px; margin-bottom:4px;">✏️ Écris l'expression numérique :</p>
+    
+    <p class="text-sm">3. &nbsp; La somme de 8 et de 7 &nbsp;=&nbsp;
+      <span class="trou-ligne" style="width:60px;"></span>
+    </p>
+  </div>
+
+  <!-- ── Colonne droite : priorités opératoires ── -->
+  <div class="bloc-exercice">
+    <div class="bloc-exercice-label">✏️ Calcule en respectant les priorités opératoires :</div>
+
+
+    <div class="cols-half">
+
+      <!-- Expression E -->
+      <div>
+        <p class="text-sm">E &nbsp;=&nbsp; 3 + 4 × (12 − 7)</p>
+        <p class="text-sm">E &nbsp;=&nbsp; <span class="trou-ligne" style="width:100px;"></span></p>
+        <p class="text-sm">E &nbsp;=&nbsp; <span class="trou-ligne" style="width:70px;"></span></p>
+        <p class="text-sm">E &nbsp;=&nbsp; <span class="trou-ligne" style="width:50px;"></span></p>
+      </div>
+
+      <!-- Expression F -->
+      <div>
+        <p class="text-sm">F &nbsp;=&nbsp; 20 − (3 + (8 − 5) × 2)</p>
+        <p class="text-sm">F &nbsp;=&nbsp; <span class="trou-ligne" style="width:100px;"></span></p>
+        <p class="text-sm">F &nbsp;=&nbsp; <span class="trou-ligne" style="width:100px;"></span></p>
+        <p class="text-sm">F &nbsp;=&nbsp; <span class="trou-ligne" style="width:70px;"></span></p>
+        <p class="text-sm">F &nbsp;=&nbsp; <span class="trou-ligne" style="width:50px;"></span></p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+</div><!-- fin .contenu -->
+</body>
+</html>
