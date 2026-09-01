@@ -112,4 +112,4 @@ function showSite() {
 }
  
 window.addEventListener('hashchange', render);
-window.addEventListener('DOMContentLoaded', checkAccess);
+window.addEventListener('DOMContentLoaded', showSite);
