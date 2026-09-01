@@ -24,6 +24,10 @@ const SITE_PASSWORD = "maths2026";
 
 const SITE_DATA = {
   "6e": [
+      {
+    titre: "Matériel",
+    fichier: "pdfs/6e/6e_materiel.html"
+  },
     {
       titre: "Chapitre 1 — Nombres entiers",
       lecon: "pdfs/6e/01/6e_01_lecon.html",
