@@ -34,9 +34,9 @@ const SITE_DATA = {
   "5e": [
     {
       titre: "Chapitre 1 — Nombres relatifs",
-      lecon: "pdfs/5e/ch1-lecon.pdf",
-      corrections: "pdfs/5e/ch1-corrections.pdf",
-      flash: "pdfs/5e/ch1-flash.pdf"
+      lecon: "pdfs/5e/01/5e_01_Lecon.html",
+      corrections: "pdfs/5e/01/5e_01_corr.pdf",
+      flash: "pdfs/5e/5e_01_Flash.pdf"
     }
   ],
   "4e": [
