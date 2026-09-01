@@ -26,9 +26,9 @@ const SITE_DATA = {
   "6e": [
     {
       titre: "Chapitre 1 — Nombres entiers",
-      lecon: "pdfs/6e/ch1-lecon.pdf",
-      corrections: "pdfs/6e/ch1-corrections.pdf",
-      flash: "pdfs/6e/ch1-flash.pdf"
+      lecon: "pdfs/6e/6e_01_lecon.html",
+      corrections: "pdfs/6e/6e_01_corr.pdf",
+      flash: "pdfs/6e/6e_01_Flash.pdf"
     }
   ],
   "5e": [
