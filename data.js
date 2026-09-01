@@ -54,9 +54,9 @@ const SITE_DATA = {
   du niveau, au-dessus du premier chapitre.
 */
 const MATERIEL_LINKS = {
-  "6e": "6e_materiel.html",
-  "5e": "5e_materiel.html",
-  "4e": "4e_materiel.html"
+  "6e": "pdfs/6e/6e_materiel.html",
+  "5e": "pdfs/5e/5e_materiel.html",
+  "4e": "pdfs/4e/4e_materiel.html"
 };
 
 /*
