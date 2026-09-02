@@ -28,7 +28,7 @@ const SITE_DATA = {
       titre: "Chapitre 1 — Nombres entiers",
       lecon: "pdfs/6e/01/6e_01_lecon.html",
       corrections: "pdfs/6e/01/6e_01_corr.pdf",
-      automatismes: "pdfs/6e/01/6e_01_Flash.pdf"
+      flash: "pdfs/6e/01/6e_01_Flash.pdf"
     }
   ],
   "5e": [
@@ -36,7 +36,7 @@ const SITE_DATA = {
       titre: "Chapitre 1 — Nombres relatifs",
       lecon: "pdfs/5e/01/5e_01_Lecon.html",
       corrections: "pdfs/5e/01/5e_01_corr.pdf",
-      automatismes: "pdfs/5e/01/5e_01_Flash.pdf"
+      flash: "pdfs/5e/01/5e_01_Flash.pdf"
     }
   ],
   "4e": [
@@ -44,7 +44,7 @@ const SITE_DATA = {
       titre: "Chapitre 1 — Nombres relatifs",
       lecon: "pdfs/4e/01/4e_01_Lecon.pdf",
       corrections: "pdfs/4e/01/4e_01_corr.pdf",
-      automatismes: "pdfs/4e/01/4e_01_Flash.pdf"
+      flash: "pdfs/4e/01/4e_01_Flash.pdf"
     }
   ]
 };
