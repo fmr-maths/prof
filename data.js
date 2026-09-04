@@ -504,8 +504,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "M4",
       image: "pdfs/6e/automatismes/6e_M4_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtu.be/WFgTTzpncoQ?is=U3qTSql4hZzeuR_u",
+      entrainement: "https://coopmaths.fr/alea/?uuid=ec9ef&id=6AutoG2-3&n=1&d=10&s=4&cd=1&tip=0&v=eleve&es=221100000"
     },
     {
       titre: "M5",
@@ -556,22 +556,16 @@ const AUTOMATISMES_DATA = {
       entrainement: "https://coopmaths.fr/alea/?uuid=2ce11&id=canc3D01&n=3&d=10&s=true&qcm=0&cd=1&tip=0&uuid=51242&id=canc3D04&n=2&d=10&s=true&cd=1&tip=0&v=eleve&es=221100000"
     },
     {
-      titre: "M14",
+      titre: "M14 et M15",
       image: "pdfs/6e/automatismes/6e_M14_image.pdf",
-      video: "",
-      entrainement: ""
-    },
-    {
-      titre: "M15",
-      image: "pdfs/6e/automatismes/6e_M15_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/TZbEahLknpw?is=meSVuqsj328dXSj8",
+      entrainement: "https://coopmaths.fr/alea/?uuid=1630a&id=can6D06&n=4&d=10&qcm=0&cd=1&tip=0&uuid=62450&id=can6D05&n=4&d=10&qcm=0&cd=1&tip=0&v=eleve&es=221100000"
     },
     {
       titre: "M16",
       image: "pdfs/6e/automatismes/6e_M16_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/bm_oberrwes?is=Rl6MsJZx4be4KK2G",
+      entrainement: "https://coopmaths.fr/alea/?uuid=ebb39&id=can6D07&n=3&d=10&qcm=0&cd=1&tip=0&uuid=de920&id=auto6M4E&n=3&d=10&cd=1&tip=0&v=eleve&es=221100000"
     },
     {
       titre: "G1",
