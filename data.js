@@ -632,8 +632,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "N1",
       image: "pdfs/5e/automatismes/5e_N1_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/STSpfU7Fjzw?is=ovorpP_a5Apfh32-",
+      entrainement: "https://coopmaths.fr/alea/?uuid=d5a6d&id=2N20-2&alea=8GFD&v=eleve&es=211100000"
     },
     {
       titre: "N2",
@@ -657,7 +657,7 @@ const AUTOMATISMES_DATA = {
       titre: "N5",
       image: "pdfs/5e/automatismes/5e_N5_image.pdf",
       video: "https://www.youtube.com/shorts/j6YB4G9PXME",
-      entrainement: "https://coopmaths.fr/alea/?uuid=5ec3c&id=auto5N1E-1&n=8&d=10&s=4&s2=3&s3=3&s4=true&cd=0&tip=0&uuid=7fa0e&id=auto5N1E-2&n=4&d=10&s=1-2&s2=false&s3=true&cd=1&tip=0&v=eleve&es=211100000"
+      entrainement: "https://coopmaths.fr/alea/?uuid=c5e16&id=6AutoN4-5&uuid=4ce49&id=canc3C22&n=3&d=10&qcm=0&cd=1&tip=0&uuid=fc635&id=CM2N3H-2&n=6&d=10&cd=1&tip=0&v=eleve&es=221100000"
     },
     {
       titre: "N6",
@@ -668,8 +668,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "N7",
       image: "pdfs/5e/automatismes/5e_N7_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtu.be/7nafaeXSc2A?is=JCWx9uX0RzN5UjI0",
+      entrainement: "https://coopmaths.fr/alea/?uuid=1293c&id=auto5N1F-flash1&n=2&d=10&qcm=0&cd=1&tip=0&uuid=c3e17&id=auto5N1F-flash2&n=2&d=10&qcm=0&cd=1&tip=0&uuid=a5c5a&id=auto5N1D&n=2&d=10&s=2-3-4-5-6-7-8-9&cd=1&tip=0&uuid=f8095&id=can5C37&n=2&d=10&qcm=0&cd=1&tip=0&v=eleve&es=221100000"
     },
     {
       titre: "N8",
@@ -686,8 +686,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "N10",
       image: "pdfs/5e/automatismes/5e_N10_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/Y6r6WkUO_SY?is=JOP8wdt37Mgebtcw",
+      entrainement: "https://coopmaths.fr/alea/?uuid=91d72&id=auto5N3B&v=eleve&es=211100000"
     },
     {
       titre: "N11",
@@ -828,16 +828,10 @@ const AUTOMATISMES_DATA = {
       entrainement: ""
     },
     {
-      titre: "G9",
+      titre: "G9 et G10",
       image: "pdfs/5e/automatismes/5e_G9_image.pdf",
-      video: "",
-      entrainement: ""
-    },
-    {
-      titre: "G10",
-      image: "pdfs/5e/automatismes/5e_G10_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/xYbqwdEYgV8?is=Htq_C58aRpSkuCYn",
+      entrainement: "https://coopmaths.fr/alea/?uuid=cded3&id=6G4B-2&uuid=e8d33&id=6AutoG1-5&n=1&d=10&s=5&cd=1&tip=0&v=eleve&es=221100000"
     },
     {
       titre: "G11",
