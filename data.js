@@ -656,8 +656,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "N5",
       image: "pdfs/5e/automatismes/5e_N5_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/j6YB4G9PXME",
+      entrainement: "https://coopmaths.fr/alea/?uuid=5ec3c&id=auto5N1E-1&n=8&d=10&s=4&s2=3&s3=3&s4=true&cd=0&tip=0&uuid=7fa0e&id=auto5N1E-2&n=4&d=10&s=1-2&s2=false&s3=true&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
       titre: "N6",
