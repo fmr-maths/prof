@@ -550,16 +550,10 @@ const AUTOMATISMES_DATA = {
       entrainement: ""
     },
     {
-      titre: "M12",
+      titre: "M12 et M13 ",
       image: "pdfs/6e/automatismes/6e_M12_image.pdf",
-      video: "",
-      entrainement: ""
-    },
-    {
-      titre: "M13",
-      image: "pdfs/6e/automatismes/6e_M13_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtu.be/s2xX5cn9UPs?is=NDJ-459X8W9d6PSm",
+      entrainement: "https://coopmaths.fr/alea/?uuid=2ce11&id=canc3D01&n=3&d=10&s=true&qcm=0&cd=1&tip=0&uuid=51242&id=canc3D04&n=2&d=10&s=true&cd=1&tip=0&v=eleve&es=221100000"
     },
     {
       titre: "M14",
