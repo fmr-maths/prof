@@ -905,6 +905,308 @@ const AUTOMATISMES_DATA = {
       video: "",
       entrainement: ""
     }
+  ],
+    "4e": [
+    {
+      titre: "A1",
+      image: "pdfs/4e/automatismes/4e_A1_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A2",
+      image: "pdfs/4e/automatismes/4e_A2_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A3",
+      image: "pdfs/4e/automatismes/4e_A3_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A4",
+      image: "pdfs/4e/automatismes/4e_A4_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A5",
+      image: "pdfs/4e/automatismes/4e_A5_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A6",
+      image: "pdfs/4e/automatismes/4e_A6_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A7",
+      image: "pdfs/4e/automatismes/4e_A7_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A8",
+      image: "pdfs/4e/automatismes/4e_A8_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A9",
+      image: "pdfs/4e/automatismes/4e_A9_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A10",
+      image: "pdfs/4e/automatismes/4e_A10_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A11",
+      image: "pdfs/4e/automatismes/4e_A11_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A12",
+      image: "pdfs/4e/automatismes/4e_A12_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A13",
+      image: "pdfs/4e/automatismes/4e_A13_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A14",
+      image: "pdfs/4e/automatismes/4e_A14_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A15",
+      image: "pdfs/4e/automatismes/4e_A15_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A16",
+      image: "pdfs/4e/automatismes/4e_A16_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A17",
+      image: "pdfs/4e/automatismes/4e_A17_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A18",
+      image: "pdfs/4e/automatismes/4e_A18_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A19",
+      image: "pdfs/4e/automatismes/4e_A19_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A20",
+      image: "pdfs/4e/automatismes/4e_A20_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A21",
+      image: "pdfs/4e/automatismes/4e_A21_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A22",
+      image: "pdfs/4e/automatismes/4e_A22_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A23",
+      image: "pdfs/4e/automatismes/4e_A23_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A24",
+      image: "pdfs/4e/automatismes/4e_A24_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A25",
+      image: "pdfs/4e/automatismes/4e_A25_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A26",
+      image: "pdfs/4e/automatismes/4e_A26_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A27",
+      image: "pdfs/4e/automatismes/4e_A27_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A28",
+      image: "pdfs/4e/automatismes/4e_A28_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A29",
+      image: "pdfs/4e/automatismes/4e_A29_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A30",
+      image: "pdfs/4e/automatismes/4e_A30_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A31",
+      image: "pdfs/4e/automatismes/4e_A31_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A32",
+      image: "pdfs/4e/automatismes/4e_A32_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A33",
+      image: "pdfs/4e/automatismes/4e_A33_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A34",
+      image: "pdfs/4e/automatismes/4e_A34_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A35",
+      image: "pdfs/4e/automatismes/4e_A35_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A36",
+      image: "pdfs/4e/automatismes/4e_A36_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A37",
+      image: "pdfs/4e/automatismes/4e_A37_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A38",
+      image: "pdfs/4e/automatismes/4e_A38_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A39",
+      image: "pdfs/4e/automatismes/4e_A39_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A40",
+      image: "pdfs/4e/automatismes/4e_A40_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A41",
+      image: "pdfs/4e/automatismes/4e_A41_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A42",
+      image: "pdfs/4e/automatismes/4e_A42_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A43",
+      image: "pdfs/4e/automatismes/4e_A43_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A44",
+      image: "pdfs/4e/automatismes/4e_A44_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A45",
+      image: "pdfs/4e/automatismes/4e_A45_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A46",
+      image: "pdfs/4e/automatismes/4e_A46_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A47",
+      image: "pdfs/4e/automatismes/4e_A47_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A48",
+      image: "pdfs/4e/automatismes/4e_A48_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A49",
+      image: "pdfs/4e/automatismes/4e_A49_image.pdf",
+      video: "",
+      entrainement: ""
+    },
+    {
+      titre: "A50",
+      image: "pdfs/4e/automatismes/4e_A50_image.pdf",
+      video: "",
+      entrainement: ""
+    }
   ]
 };
 
