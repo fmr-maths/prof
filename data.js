@@ -896,28 +896,28 @@ const AUTOMATISMES_DATA = {
   ],
     "4e": [
     {
-      titre: "A1",
+      titre: "A1 : arrondir un nombre",
       image: "pdfs/4e/automatismes/4e_A1_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/TYWOREqsE4U",
+      entrainement: "https://coopmaths.fr/alea/?uuid=de7d5&id=canc3N04&uuid=ad44e&id=can6N06&n=3&d=10&qcm=0&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
-      titre: "A2",
+      titre: "A2 : appartenance à une droite",
       image: "pdfs/4e/automatismes/4e_A2_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/watch?v=LL5qftVMWFo",
+      entrainement: "https://coopmaths.fr/alea/?uuid=9af23&id=6AutoG1-2&n=1&d=10&s=1&s2=4&cd=1&tip=0&alea=EZo3&v=confeleve"
     },
     {
-      titre: "A3",
+      titre: "A3 : multiplier ou diviser par 10; 100; 1 000",
       image: "pdfs/4e/automatismes/4e_A3_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/j6YB4G9PXME",
+      entrainement: "https://coopmaths.fr/alea/?uuid=c5e16&id=6AutoN4-5&uuid=4ce49&id=canc3C22&n=3&d=10&qcm=0&cd=1&tip=0&uuid=fc635&id=CM2N3H-2&n=6&d=10&cd=1&tip=0&v=eleve&es=221100000"
     },
     {
-      titre: "A4",
+      titre: "A4 : tracer le schéma d'un triangle à main levée",
       image: "pdfs/4e/automatismes/4e_A4_image.pdf",
       video: "",
-      entrainement: ""
+      entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=6GC7~t=8~n=4"
     },
     {
       titre: "A5",
