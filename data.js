@@ -915,7 +915,7 @@ const AUTOMATISMES_DATA = {
     },
     {
       titre: "A4 : tracer le schéma d'un triangle à main levée",
-      image: "pdfs/4e/automatismes/4e_A4_image.pdf",
+      image: "pdfs/4e/automatismes/4e_A4_image.png",
       video: "",
       entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=6GC7~t=8~n=4"
     },
