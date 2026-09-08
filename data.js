@@ -266,7 +266,7 @@ const SITE_DATA = {
     },
     {
       titre: "Chapitre 3 — Nombres relatifs 2",
-      lecon: "pdfs/4e/4e_03_leçon.pdf",
+      lecon: "pdfs/4e/4e_03_lecon.pdf",
       corrections: "pdfs/4e/4e_03_corr.pdf"
     },
     {
