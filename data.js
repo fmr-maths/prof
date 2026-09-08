@@ -27,17 +27,17 @@ const SITE_DATA = {
   "6e": [
     {
       titre: "Chapitre 1 — Nombres entiers 1",
-      lecon: "pdfs/6e/6e_01_lecon.pdf",
+      lecon: "pdfs/6e/6e_01_Lecon.pdf",
       corrections: "pdfs/6e/6e_01_corr.pdf"
     },
     {
       titre: "Chapitre 2 — Distance 1",
-      lecon: "pdfs/6e/6e_02_lecon.pdf",
+      lecon: "pdfs/6e/6e_02_Lecon.pdf",
       corrections: "pdfs/6e/6e_02_corr.pdf"
     },
     {
       titre: "Chapitre 3 — Nombres entiers 2",
-      lecon: "pdfs/6e/6e_03_lecon.pdf",
+      lecon: "pdfs/6e/6e_03_Lecon.pdf",
       corrections: "pdfs/6e/6e_03_corr.pdf"
     },
     {
@@ -266,12 +266,12 @@ const SITE_DATA = {
     },
     {
       titre: "Chapitre 3 — Nombres relatifs 2",
-      lecon: "pdfs/4e/4e_03_Lecon.pdf",
+      lecon: "pdfs/4e/4e_03_leçon.pdf",
       corrections: "pdfs/4e/4e_03_corr.pdf"
     },
     {
       titre: "Chapitre 4 — Calcul littéral 1",
-      lecon: "pdfs/4e/4e_04_Lecon.pdf",
+      lecon: "pdfs/4e/4e_04_lecon.pdf",
       corrections: "pdfs/4e/4e_04_corr.pdf"
     },
     {
