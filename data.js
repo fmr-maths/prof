@@ -27,229 +27,229 @@ const SITE_DATA = {
   "6e": [
     {
       titre: "Chapitre 1 — Nombres entiers 1",
-      lecon: "pdfs/6e/6e_01_lecon.html",
+      lecon: "pdfs/6e/6e_01_lecon.pdf",
       corrections: "pdfs/6e/6e_01_corr.pdf"
     },
     {
       titre: "Chapitre 2 — Distance 1",
-      lecon: "pdfs/6e/6e_02_lecon.html",
+      lecon: "pdfs/6e/6e_02_lecon.pdf",
       corrections: "pdfs/6e/6e_02_corr.pdf"
     },
     {
       titre: "Chapitre 3 — Nombres entiers 2",
-      lecon: "pdfs/6e/6e_03_lecon.html",
+      lecon: "pdfs/6e/6e_03_lecon.pdf",
       corrections: "pdfs/6e/6e_03_corr.pdf"
     },
     {
       titre: "Chapitre 4 — Fractions 1",
-      lecon: "pdfs/6e/6e_04_lecon.html",
+      lecon: "pdfs/6e/6e_04_lecon.pdf",
       corrections: "pdfs/6e/6e_04_corr.pdf"
     },
     {
       titre: "Chapitre 5 — Distance 2",
-      lecon: "pdfs/6e/6e_05_lecon.html",
+      lecon: "pdfs/6e/6e_05_lecon.pdf",
       corrections: "pdfs/6e/6e_05_corr.pdf"
     },
     {
       titre: "Chapitre 6 — Fractions 2",
-      lecon: "pdfs/6e/6e_06_lecon.html",
+      lecon: "pdfs/6e/6e_06_lecon.pdf",
       corrections: "pdfs/6e/6e_06_corr.pdf"
     },
     {
       titre: "Chapitre 7 — Angles 1",
-      lecon: "pdfs/6e/6e_07_lecon.html",
+      lecon: "pdfs/6e/6e_07_lecon.pdf",
       corrections: "pdfs/6e/6e_07_corr.pdf"
     },
     {
       titre: "Chapitre 8 — Nombres décimaux 1",
-      lecon: "pdfs/6e/6e_08_lecon.html",
+      lecon: "pdfs/6e/6e_08_lecon.pdf",
       corrections: "pdfs/6e/6e_08_corr.pdf"
     },
     {
       titre: "Chapitre 9 — Angles 2",
-      lecon: "pdfs/6e/6e_09_lecon.html",
+      lecon: "pdfs/6e/6e_09_lecon.pdf",
       corrections: "pdfs/6e/6e_09_corr.pdf"
     },
     {
       titre: "Chapitre 10 — Nombres décimaux 2",
-      lecon: "pdfs/6e/6e_10_lecon.html",
+      lecon: "pdfs/6e/6e_10_lecon.pdf",
       corrections: "pdfs/6e/6e_10_corr.pdf"
     },
     {
       titre: "Chapitre 11 — Triangles 1",
-      lecon: "pdfs/6e/6e_11_lecon.html",
+      lecon: "pdfs/6e/6e_11_lecon.pdf",
       corrections: "pdfs/6e/6e_11_corr.pdf"
     },
     {
       titre: "Chapitre 12 — Nombres décimaux 3",
-      lecon: "pdfs/6e/6e_12_lecon.html",
+      lecon: "pdfs/6e/6e_12_lecon.pdf",
       corrections: "pdfs/6e/6e_12_corr.pdf"
     },
     {
       titre: "Chapitre 13 — Triangles 2",
-      lecon: "pdfs/6e/6e_13_lecon.html",
+      lecon: "pdfs/6e/6e_13_lecon.pdf",
       corrections: "pdfs/6e/6e_13_corr.pdf"
     },
     {
       titre: "Chapitre 14 — Nombres décimaux 4",
-      lecon: "pdfs/6e/6e_14_lecon.html",
+      lecon: "pdfs/6e/6e_14_lecon.pdf",
       corrections: "pdfs/6e/6e_14_corr.pdf"
     },
     {
       titre: "Chapitre 15 — Aires et Périmètres 1",
-      lecon: "pdfs/6e/6e_15_lecon.html",
+      lecon: "pdfs/6e/6e_15_lecon.pdf",
       corrections: "pdfs/6e/6e_15_corr.pdf"
     },
     {
       titre: "Chapitre 16 — Fractions 3",
-      lecon: "pdfs/6e/6e_16_lecon.html",
+      lecon: "pdfs/6e/6e_16_lecon.pdf",
       corrections: "pdfs/6e/6e_16_corr.pdf"
     },
     {
       titre: "Chapitre 17 — Proportionnalité 1",
-      lecon: "pdfs/6e/6e_17_lecon.html",
+      lecon: "pdfs/6e/6e_17_lecon.pdf",
       corrections: "pdfs/6e/6e_17_corr.pdf"
     },
     {
       titre: "Chapitre 18 — Symétrie axiale 1",
-      lecon: "pdfs/6e/6e_18_lecon.html",
+      lecon: "pdfs/6e/6e_18_lecon.pdf",
       corrections: "pdfs/6e/6e_18_corr.pdf"
     },
     {
       titre: "Chapitre 19 — Fractions 4",
-      lecon: "pdfs/6e/6e_19_lecon.html",
+      lecon: "pdfs/6e/6e_19_lecon.pdf",
       corrections: "pdfs/6e/6e_19_corr.pdf"
     },
     {
       titre: "Chapitre 20 — Aires et Périmètres 2",
-      lecon: "pdfs/6e/6e_20_lecon.html",
+      lecon: "pdfs/6e/6e_20_lecon.pdf",
       corrections: "pdfs/6e/6e_20_corr.pdf"
     },
     {
       titre: "Chapitre 21 — Symétrie axiale 2",
-      lecon: "pdfs/6e/6e_21_lecon.html",
+      lecon: "pdfs/6e/6e_21_lecon.pdf",
       corrections: "pdfs/6e/6e_21_corr.pdf"
     },
     {
       titre: "Chapitre 22 — Proportionnalité 2",
-      lecon: "pdfs/6e/6e_22_lecon.html",
+      lecon: "pdfs/6e/6e_22_lecon.pdf",
       corrections: "pdfs/6e/6e_22_corr.pdf"
     },
     {
       titre: "Chapitre 23 — Solides et Volumes",
-      lecon: "pdfs/6e/6e_23_lecon.html",
+      lecon: "pdfs/6e/6e_23_lecon.pdf",
       corrections: "pdfs/6e/6e_23_corr.pdf"
     }
   ],
   "5e": [
     {
       titre: "Chapitre 1 — Expression Numérique 1",
-      lecon: "pdfs/5e/5e_01_Lecon.html",
+      lecon: "pdfs/5e/5e_01_Lecon.pdf",
       corrections: "pdfs/5e/5e_01_corr.pdf"
     },
     {
       titre: "Chapitre 2 — Triangles",
-      lecon: "pdfs/5e/5e_02_Lecon.html",
+      lecon: "pdfs/5e/5e_02_Lecon.pdf",
       corrections: "pdfs/5e/5e_02_corr.pdf"
     },
     {
       titre: "Chapitre 3 — Quotient et Fraction 1",
-      lecon: "pdfs/5e/5e_03_Lecon.html",
+      lecon: "pdfs/5e/5e_03_Lecon.pdf",
       corrections: "pdfs/5e/5e_03_corr.pdf"
     },
     {
       titre: "Chapitre 4 — Symétrie centrale",
-      lecon: "pdfs/5e/5e_04_Lecon.html",
+      lecon: "pdfs/5e/5e_04_Lecon.pdf",
       corrections: "pdfs/5e/5e_04_corr.pdf"
     },
     {
       titre: "Chapitre 5 — Expression Numérique 2",
-      lecon: "pdfs/5e/5e_05_Lecon.html",
+      lecon: "pdfs/5e/5e_05_Lecon.pdf",
       corrections: "pdfs/5e/5e_05_corr.pdf"
     },
     {
       titre: "Chapitre 6 — Angles et droites 1",
-      lecon: "pdfs/5e/5e_06_Lecon.html",
+      lecon: "pdfs/5e/5e_06_Lecon.pdf",
       corrections: "pdfs/5e/5e_06_corr.pdf"
     },
     {
       titre: "Chapitre 7 — Nombres relatifs 1",
-      lecon: "pdfs/5e/5e_07_Lecon.html",
+      lecon: "pdfs/5e/5e_07_Lecon.pdf",
       corrections: "pdfs/5e/5e_07_corr.pdf"
     },
     {
       titre: "Chapitre 8 — Triangles et cercles 1",
-      lecon: "pdfs/5e/5e_08_Lecon.html",
+      lecon: "pdfs/5e/5e_08_Lecon.pdf",
       corrections: "pdfs/5e/5e_08_corr.pdf"
     },
     {
       titre: "Chapitre 9 — Division",
-      lecon: "pdfs/5e/5e_09_Lecon.html",
+      lecon: "pdfs/5e/5e_09_Lecon.pdf",
       corrections: "pdfs/5e/5e_09_corr.pdf"
     },
     {
       titre: "Chapitre 10 — Angles et droites 2",
-      lecon: "pdfs/5e/5e_10_Lecon.html",
+      lecon: "pdfs/5e/5e_10_Lecon.pdf",
       corrections: "pdfs/5e/5e_10_corr.pdf"
     },
     {
       titre: "Chapitre 11 — Quotient et Fraction 2",
-      lecon: "pdfs/5e/5e_11_Lecon.html",
+      lecon: "pdfs/5e/5e_11_Lecon.pdf",
       corrections: "pdfs/5e/5e_11_corr.pdf"
     },
     {
       titre: "Chapitre 12 — Proportionnalité 1",
-      lecon: "pdfs/5e/5e_12_Lecon.html",
+      lecon: "pdfs/5e/5e_12_Lecon.pdf",
       corrections: "pdfs/5e/5e_12_corr.pdf"
     },
     {
       titre: "Chapitre 13 — Parallélogrammes 1",
-      lecon: "pdfs/5e/5e_13_Lecon.html",
+      lecon: "pdfs/5e/5e_13_Lecon.pdf",
       corrections: "pdfs/5e/5e_13_corr.pdf"
     },
     {
       titre: "Chapitre 14 — Nombres relatifs 2",
-      lecon: "pdfs/5e/5e_14_Lecon.html",
+      lecon: "pdfs/5e/5e_14_Lecon.pdf",
       corrections: "pdfs/5e/5e_14_corr.pdf"
     },
     {
       titre: "Chapitre 15 — Triangles et cercles 2",
-      lecon: "pdfs/5e/5e_15_Lecon.html",
+      lecon: "pdfs/5e/5e_15_Lecon.pdf",
       corrections: "pdfs/5e/5e_15_corr.pdf"
     },
     {
       titre: "Chapitre 16 — Calcul littéral 1",
-      lecon: "pdfs/5e/5e_16_Lecon.html",
+      lecon: "pdfs/5e/5e_16_Lecon.pdf",
       corrections: "pdfs/5e/5e_16_corr.pdf"
     },
     {
       titre: "Chapitre 17 — Statistiques 1",
-      lecon: "pdfs/5e/5e_17_Lecon.html",
+      lecon: "pdfs/5e/5e_17_Lecon.pdf",
       corrections: "pdfs/5e/5e_17_corr.pdf"
     },
     {
       titre: "Chapitre 18 — Parallélogrammes 2",
-      lecon: "pdfs/5e/5e_18_Lecon.html",
+      lecon: "pdfs/5e/5e_18_Lecon.pdf",
       corrections: "pdfs/5e/5e_18_corr.pdf"
     },
     {
       titre: "Chapitre 19 — Proportionnalité 2",
-      lecon: "pdfs/5e/5e_19_Lecon.html",
+      lecon: "pdfs/5e/5e_19_Lecon.pdf",
       corrections: "pdfs/5e/5e_19_corr.pdf"
     },
     {
       titre: "Chapitre 20 — Calcul littéral 2",
-      lecon: "pdfs/5e/5e_20_Lecon.html",
+      lecon: "pdfs/5e/5e_20_Lecon.pdf",
       corrections: "pdfs/5e/5e_20_corr.pdf"
     },
     {
       titre: "Chapitre 21 — Statistiques 2",
-      lecon: "pdfs/5e/5e_21_Lecon.html",
+      lecon: "pdfs/5e/5e_21_Lecon.pdf",
       corrections: "pdfs/5e/5e_21_corr.pdf"
     },
     {
       titre: "Chapitre 22 — Probabilité",
-      lecon: "pdfs/5e/5e_22_Lecon.html",
+      lecon: "pdfs/5e/5e_22_Lecon.pdf",
       corrections: "pdfs/5e/5e_22_corr.pdf"
     }
   ],
