@@ -842,7 +842,7 @@ const AUTOMATISMES_DATA = {
       titre: "A2 : appartenance à une droite",
       image: "pdfs/4e/automatismes/4e_A2_image.pdf",
       video: "https://www.youtube.com/watch?v=LL5qftVMWFo",
-      entrainement: "https://coopmaths.fr/alea/?uuid=9af23&id=6AutoG1-2&n=1&d=10&s=1&s2=4&cd=1&tip=0&alea=EZo3&v=confeleve"
+      entrainement: "https://coopmaths.fr/alea/?uuid=9af23&id=6AutoG1-2&n=1&d=10&s=1&s2=4&cd=1&tip=0&alea=EZo3&v=eleve&es=211100110"
     },
     {
       titre: "A3 : multiplier ou diviser par 10; 100; 1 000",
