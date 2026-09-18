@@ -543,8 +543,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "P1",
       image: "pdfs/6e/automatismes/6e_P1_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/watch?v=flwL9uaEWNM",
+      entrainement: "https://coopmaths.fr/alea/?uuid=26a94&id=6AutoP1-2&uuid=6796e&id=CM2N3A-14&v=eleve&es=211100000"
     },
     {
       titre: "P2",
@@ -587,8 +587,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "N6",
       image: "pdfs/5e/automatismes/5e_N6_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/watch?v=bVTmCUF09sk",
+      entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=8NB5~q=1.-2.-3.~t=8~n=3&p=1~t=Diapo%202~c=2~o=true~d=normal~at=10~sl=0_i=8NB2~q=0.-1.-4.~t=8~n=3"
     },
     {
       titre: "N7",
