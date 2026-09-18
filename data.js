@@ -857,34 +857,34 @@ const AUTOMATISMES_DATA = {
       entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=6GC7~t=8~n=4"
     },
     {
-      titre: "A5",
+      titre: "A5 : calculer le 3e angle d’un triangle ",
       image: "pdfs/4e/automatismes/4e_A5_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/oWKssO1IFxM",
+      entrainement: "https://coopmaths.fr/alea/?uuid=7b386&id=5G5autoB-1&n=3&d=10&qcm=0&i=1&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
-      titre: "A6",
+      titre: "A6 : coordonnées dans le plan",
       image: "pdfs/4e/automatismes/4e_A6_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/7MCWfxI1s0s",
+      entrainement: "https://coopmaths.fr/alea/?uuid=ab969&id=5G1B-2&v=eleve&es=211100000"
     },
     {
-      titre: "A7",
+      titre: "A7 : calculer en respectant les priorités opératoires",
       image: "pdfs/4e/automatismes/4e_A7_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/Er33dUzEwws?si=ek63BZD2nKGQI-bA",
+      entrainement: "https://coopmaths.fr/alea/?uuid=4c10a&id=5N1G-1&v=eleve&es=211100000"
     },
     {
-      titre: "A8",
+      titre: "A8 : nommer un angle",
       image: "pdfs/4e/automatismes/4e_A8_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/Mlwr-4cCDnk",
+      entrainement: "https://coopmaths.fr/alea/?uuid=e10d1&id=6G4A&v=eleve&es=211100000"
     },
     {
-      titre: "A9",
+      titre: "A9 : trouver des fractions égales",
       image: "pdfs/4e/automatismes/4e_A9_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/watch?v=QMg0nEhHPbo",
+      entrainement: "https://coopmaths.fr/alea/?uuid=4718e&id=5N3autoE&n=5&d=10&s=11&s2=2&i=1&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
       titre: "A10",
