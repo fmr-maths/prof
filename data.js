@@ -399,8 +399,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "N6",
       image: "pdfs/6e/automatismes/6e_N6_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/watch?v=bVTmCUF09sk",
+      entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=8NB5~q=1.-2.-3.~t=8~n=3&p=1~t=Diapo%202~c=2~o=true~d=normal~at=10~sl=0_i=8NB2~q=0.-1.-4.~t=8~n=3"
     },
     {
       titre: "N7",
@@ -587,8 +587,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "N6",
       image: "pdfs/5e/automatismes/5e_N6_image.pdf",
-      video: "https://www.youtube.com/watch?v=bVTmCUF09sk",
-      entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=8NB5~q=1.-2.-3.~t=8~n=3&p=1~t=Diapo%202~c=2~o=true~d=normal~at=10~sl=0_i=8NB2~q=0.-1.-4.~t=8~n=3"
+      video: "https://youtube.com/shorts/CFtFN_IO8xU?si=PV34CwYE60zSIJaL",
+      entrainement: "https://coopmaths.fr/alea/?uuid=c3e17&id=5N1autoF-2&n=2&d=10&qcm=0&i=1&cd=1&tip=0&uuid=1293c&id=5N1autoF-1&n=2&d=10&qcm=0&i=1&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
       titre: "N7",
@@ -749,8 +749,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "G8",
       image: "pdfs/5e/automatismes/5e_G8_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/7lLLl5cEg-k",
+      entrainement: "https://coopmaths.fr/alea/?uuid=8ea24&id=5G3autoB-1&v=eleve&es=211100000"
     },
     {
       titre: "G9 et G10",
@@ -785,8 +785,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "G15",
       image: "pdfs/5e/automatismes/5e_G15_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/1v9sz3R572E",
+      entrainement: "https://coopmaths.fr/alea/?uuid=29407&id=6G3B-2&uuid=3acc1&id=6G3C&uuid=d7052&id=6G3B-1&uuid=e0bca&id=6G6F&v=eleve&es=211100000"
     },
     {
       titre: "G16",
