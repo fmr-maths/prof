@@ -569,8 +569,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "N3",
       image: "pdfs/5e/automatismes/5e_N3_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/watch?v=5cFeMPqRvIY",
+      entrainement: "https://coopmaths.fr/alea/?uuid=ac64a&id=5N1autoC&i=1&alea=QABw&v=eleve&es=211100000"
     },
     {
       titre: "N4",
@@ -618,7 +618,7 @@ const AUTOMATISMES_DATA = {
       titre: "N11",
       image: "pdfs/5e/automatismes/5e_N11_image.pdf",
       video: "",
-      entrainement: ""
+      entrainement: "https://coopmaths.fr/alea/?uuid=6a15e&id=5N3autoC&n=8&d=10&s=3&s2=6&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
       titre: "N12",
@@ -629,8 +629,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "N13",
       image: "pdfs/5e/automatismes/5e_N13_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/watch?v=QMg0nEhHPbo",
+      entrainement: "https://coopmaths.fr/alea/?uuid=4718e&id=5N3autoE&n=5&d=10&s=11&s2=2&i=1&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
       titre: "N14",
@@ -743,8 +743,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "G7",
       image: "pdfs/5e/automatismes/5e_G7_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/watch?v=bzzwmq5ZAwU",
+      entrainement: "https://coopmaths.fr/alea/?uuid=da157&id=5G3autoA&n=1&d=10&s=1-2-3-4&i=1&cd=1&tip=0&alea=c2dN&v=eleve&es=211100000"
     },
     {
       titre: "G8",
@@ -773,14 +773,14 @@ const AUTOMATISMES_DATA = {
     {
       titre: "G13",
       image: "pdfs/5e/automatismes/5e_G13_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/b_GK_S4pdIU",
+      entrainement: "https://coopmaths.fr/alea/?uuid=7353f&id=5G5autoA&v=eleve&es=211100000"
     },
     {
       titre: "G14",
       image: "pdfs/5e/automatismes/5e_G14_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/oWKssO1IFxM",
+      entrainement: "https://coopmaths.fr/alea/?uuid=7b386&id=5G5autoB-1&n=3&d=10&qcm=0&i=1&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
       titre: "G15",
