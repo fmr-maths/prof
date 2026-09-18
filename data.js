@@ -429,8 +429,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "M2",
       image: "pdfs/6e/automatismes/6e_M2_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/RKwkakI_yp8?si=ToLmXdjwbSNA_AOo",
+      entrainement: "https://coopmaths.fr/alea/?uuid=816f5&id=1A-C07-7&n=6&d=10&qcm=1&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
       titre: "M3",
@@ -453,8 +453,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "M6",
       image: "pdfs/6e/automatismes/6e_M6_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/watch?v=xM04nceMe5A",
+      entrainement: "https://coopmaths.fr/alea/?uuid=e52ba&id=can6M06&n=1&d=10&qcm=0&cd=1&tip=0&uuid=ab280&id=6M1autoE-1&n=1&d=10&s=1-2&s2=1&s3=true&cd=1&tip=0&uuid=79035&id=can6M01&v=eleve&es=211100000"
     },
     {
       titre: "M7",
@@ -508,7 +508,7 @@ const AUTOMATISMES_DATA = {
       titre: "G1",
       image: "pdfs/6e/automatismes/6e_G1_image.pdf",
       video: "",
-      entrainement: ""
+      entrainement: "https://coopmaths.fr/alea/?uuid=d81c6&id=6AutoG1&uuid=3dbda&id=6AutoG1-7&v=eleve&es=211100000"
     },
     {
       titre: "G2",
@@ -532,7 +532,7 @@ const AUTOMATISMES_DATA = {
       titre: "G5",
       image: "pdfs/6e/automatismes/6e_G5_image.pdf",
       video: "",
-      entrainement: ""
+      entrainement: "https://coopmaths.fr/alea/?uuid=051aa&id=3AutoG07&n=7&d=10&s=8&s2=false&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
       titre: "D1",
