@@ -887,28 +887,28 @@ const AUTOMATISMES_DATA = {
       entrainement: "https://coopmaths.fr/alea/?uuid=4718e&id=5N3autoE&n=5&d=10&s=11&s2=2&i=1&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
-      titre: "A10",
+      titre: "A10 : lire l'abscisse d'un point sur une droite graduée",
       image: "pdfs/4e/automatismes/4e_A10_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/_Too2ZiRwh4",
+      entrainement: "https://coopmaths.fr/alea/?uuid=aa22e&id=can6N17&n=4&d=10&qcm=0&cd=1&tip=0&uuid=82ed5&id=5N3autoD&v=eleve&es=211100000"
     },
     {
       titre: "A11",
       image: "pdfs/4e/automatismes/4e_A11_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://coopmaths.fr/alea/?uuid=aa22e&id=can6N17&n=4&d=10&qcm=0&cd=1&tip=0&uuid=82ed5&id=5N3autoD&v=eleve&es=211100000",
+      entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=6NE5~o=4~q=4.0,1~t=8~n=4"
     },
     {
-      titre: "A12",
+      titre: "A12 : appliquer un programme de calcul",
       image: "pdfs/4e/automatismes/4e_A12_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/Ru4gXTqvO9g",
+      entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=5NE9~o=3~q=3.-4.~t=8~n=4"
     },
     {
-      titre: "A13",
-      image: "pdfs/4e/automatismes/4e_A13_image.pdf",
+      titre: "A13 : identifier les quadrilatères",
+      image: "pdfs/4e/automatismes/4e_A13_image.jpg",
       video: "",
-      entrainement: ""
+      entrainement: "https://coopmaths.fr/alea/?uuid=b6c33&id=6AutoG2&n=3&d=10&s=false&s2=false&s4=false&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
       titre: "A14",
