@@ -911,10 +911,10 @@ const AUTOMATISMES_DATA = {
       entrainement: "https://coopmaths.fr/alea/?uuid=b6c33&id=6AutoG2&n=3&d=10&s=false&s2=false&s4=false&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
-      titre: "A14",
+      titre: "A14 : connaître la symétrie centrale",
       image: "pdfs/4e/automatismes/4e_A14_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/b4zWYVfBRdo",
+      entrainement: "https://coopmaths.fr/alea/?uuid=9f711&id=5G3A&uuid=428b2&id=5G3A-13&v=eleve&es=211100000"
     },
     {
       titre: "A15",
