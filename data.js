@@ -917,15 +917,15 @@ const AUTOMATISMES_DATA = {
       entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=6NB1~o=1,2~q=1.-2.~t=8~n=6"
     },
     {
-      titre: "A16 : calculer des périmètre",
+      titre: "A16 : calculer des périmètres",
       image: "pdfs/4e/automatismes/4e_A16_image.jpg",
       video: "https://youtu.be/KIg0armGkwE",
       entrainement: "https://coopmaths.fr/alea/?uuid=08764&id=can6M12&n=3&d=10&qcm=0&cd=1&tip=0&uuid=f2a18&id=6M1C&n=2&d=10&s=1&s2=true&s3=4&s4=3&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
-      titre: "A17",
-      image: "pdfs/4e/automatismes/4e_A17_image.pdf",
-      video: "",
+      titre: "A17 : calcul des aires",
+      image: "pdfs/4e/automatismes/4e_A17_image.jpg",
+      video: "https://youtube.com/shorts/tpVTWjEnNYw?si=wdD6OqO52t5B1Ps4",
       entrainement: ""
     },
     {
