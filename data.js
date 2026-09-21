@@ -887,7 +887,7 @@ const AUTOMATISMES_DATA = {
       entrainement: "https://coopmaths.fr/alea/?uuid=aa22e&id=can6N17&n=4&d=10&qcm=0&cd=1&tip=0&uuid=82ed5&id=5N3autoD&v=eleve&es=211100000"
     },
     {
-      titre: "A11",
+      titre: "A11 : multiplier en ligne",
       image: "pdfs/4e/automatismes/4e_A11_image.pdf",
       video: "https://coopmaths.fr/alea/?uuid=aa22e&id=can6N17&n=4&d=10&qcm=0&cd=1&tip=0&uuid=82ed5&id=5N3autoD&v=eleve&es=211100000",
       entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=6NE5~o=4~q=4.0,1~t=8~n=4"
@@ -911,16 +911,16 @@ const AUTOMATISMES_DATA = {
       entrainement: "https://coopmaths.fr/alea/?uuid=9f711&id=5G3A&uuid=428b2&id=5G3A-13&v=eleve&es=211100000"
     },
     {
-      titre: "A15",
+      titre: "A15 : connaitre l'ecriture décimale et la fraction décimale d'un même nombre",
       image: "pdfs/4e/automatismes/4e_A15_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/Y6r6WkUO_SY",
+      entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=6NB1~o=1,2~q=1.-2.~t=8~n=6"
     },
     {
-      titre: "A16",
-      image: "pdfs/4e/automatismes/4e_A16_image.pdf",
-      video: "",
-      entrainement: ""
+      titre: "A16 : calculer des périmètre",
+      image: "pdfs/4e/automatismes/4e_A16_image.jpg",
+      video: "https://youtu.be/KIg0armGkwE",
+      entrainement: "https://coopmaths.fr/alea/?uuid=08764&id=can6M12&n=3&d=10&qcm=0&cd=1&tip=0&uuid=f2a18&id=6M1C&n=2&d=10&s=1&s2=true&s3=4&s4=3&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
       titre: "A17",
