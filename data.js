@@ -411,8 +411,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "N8",
       image: "pdfs/6e/automatismes/6e_N8_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/f5wbph4Jeqk?si=OMS6NYXWD_M-wUJv",
+      entrainement: "https://coopmaths.fr/alea/?uuid=e1b05&id=2N20-flash2&n=4&d=10&s=3&s2=4&cd=1&tip=0&uuid=af4b1&id=6N3autoD&uuid=918c2&id=5N1I-1&v=eleve&es=211100000"
     },
     {
       titre: "N9",
@@ -459,8 +459,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "M7",
       image: "pdfs/6e/automatismes/6e_M7_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtu.be/179kE7MYmD4",
+      entrainement: "https://coopmaths.fr/alea/?uuid=95313&id=6M2autoA&n=3&d=10&s=3-4-9-10&s2=2&i=1&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
       titre: "M8",
@@ -513,7 +513,7 @@ const AUTOMATISMES_DATA = {
     {
       titre: "G2",
       image: "pdfs/6e/automatismes/6e_G2_image.pdf",
-      video: "",
+      video: "https://youtu.be/HkcLxx_E7XE",
       entrainement: ""
     },
     {
