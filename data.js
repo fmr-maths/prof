@@ -270,12 +270,12 @@ const SITE_DATA = {
       corrections: "pdfs/4e/4e_03_corr.pdf"
     },
     {
-      titre: "Chapitre 4 — Calcul littéral 1",
+      titre: "Chapitre 4 — Pavé droit",
       lecon: "pdfs/4e/4e_04_lecon.pdf",
       corrections: "pdfs/4e/4e_04_corr.pdf"
     },
     {
-      titre: "Chapitre 5 — Racine carrée",
+      titre: "Chapitre 5 — Calcul littéral 1",
       lecon: "pdfs/4e/4e_05_Lecon.pdf",
       corrections: "pdfs/4e/4e_05_corr.pdf"
     },
@@ -926,25 +926,25 @@ const AUTOMATISMES_DATA = {
       titre: "A17 : calcul des aires",
       image: "pdfs/4e/automatismes/4e_A17_image.jpg",
       video: "https://youtube.com/shorts/tpVTWjEnNYw?si=wdD6OqO52t5B1Ps4",
-      entrainement: ""
+      entrainement: "https://coopmaths.fr/alea/?uuid=9e8f9&id=3AutoM06-1&i=1&uuid=8b391&id=1A-C07-5&n=2&d=10&qcm=0&i=1&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
-      titre: "A18",
+      titre: "A18 : comparer des fractions",
       image: "pdfs/4e/automatismes/4e_A18_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/d514xOd8ljw?is=GilsNSofzWf4QxXJ",
+      entrainement: "https://coopmaths.fr/alea/?uuid=d7e11&id=4C20&n=5&d=10&s=11&s2=false&i=1&cd=1&tip=0&uuid=d7e12&id=4C20-4&i=1&uuid=80ed9&id=4C20-2&i=1&v=eleve&es=211100000"
     },
     {
-      titre: "A19",
+      titre: "A19 : identifier les multiples et diviseurs d'un nombre",
       image: "pdfs/4e/automatismes/4e_A19_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/f5wbph4Jeqk?is=qFNwHWyxUXpTZ3yN",
+      entrainement: "https://coopmaths.fr/alea/?uuid=af4b1&id=6N3autoD&n=5&d=10&s=7&cd=1&tip=0&uuid=918c2&id=5N1I-1&v=eleve&es=211100000"
     },
     {
-      titre: "A20",
+      titre: "A20 : Faire le lien entre écriture décimale et pourcentage",
       image: "pdfs/4e/automatismes/4e_A20_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/kL9zMHK9nsE?is=W_3zUajpGyQp_iqg",
+      entrainement: "https://coopmaths.fr/alea/?uuid=8e718&id=1A-C04-6&n=2&d=10&qcm=0&i=1&cd=1&tip=0&uuid=dba07&id=2I10-flash1&n=2&d=10&qcm=0&i=1&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
       titre: "A21",
