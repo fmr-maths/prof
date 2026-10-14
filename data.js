@@ -947,28 +947,28 @@ const AUTOMATISMES_DATA = {
       entrainement: "https://coopmaths.fr/alea/?uuid=8e718&id=1A-C04-6&n=2&d=10&qcm=0&i=1&cd=1&tip=0&uuid=dba07&id=2I10-flash1&n=2&d=10&qcm=0&i=1&cd=1&tip=0&v=eleve&es=211100000"
     },
     {
-      titre: "A21",
+      titre: "A21 : Mobiliser les critères de divisibilité",
       image: "pdfs/4e/automatismes/4e_A21_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/STSpfU7Fjzw?is=ovorpP_a5Apfh32-",
+      entrainement: "https://coopmaths.fr/alea/?uuid=d5a6d&id=2N20-2&alea=8GFD&v=eleve&es=211100000"
     },
     {
-      titre: "A22",
+      titre: "A22 : Reconnaitre le prisme droit",
       image: "pdfs/4e/automatismes/4e_A22_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/3P9L2ry64FI?si=HSEA6-7kgiTmLdOG",
+      entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=6GB1~q=0.-1.-2.-3.~t=8~n=6"
     },
     {
-      titre: "A23",
+      titre: "A23 : calculer une proportion",
       image: "pdfs/4e/automatismes/4e_A23_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/Ekfb0aMOqJs",
+      entrainement: "https://coopmaths.fr/alea/?uuid=01d6c&id=5P1B-1&n=4&d=10&s=2&s2=false&cd=1&tip=0&v=eleve&numerique=1&es=211100000"
     },
     {
-      titre: "A24",
+      titre: "A24 : calculer double/ moitié, triple, quart, etc.",
       image: "pdfs/4e/automatismes/4e_A24_image.pdf",
       video: "",
-      entrainement: ""
+      entrainement: "https://coopmaths.fr/alea/?uuid=26a94&id=6AutoP1-2&i=1&v=eleve&numerique=1&es=211100000"
     },
     {
       titre: "A25",
