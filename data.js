@@ -983,10 +983,10 @@ const AUTOMATISMES_DATA = {
       entrainement: "https://coopmaths.fr/alea/?uuid=c7c78&id=5G5E-2&i=1&uuid=1d202&id=5G5E-1&i=1&uuid=0dbe7&id=6G3B&i=1&uuid=29407&id=6G3B-2&i=1&v=eleve&numerique=1&es=211100000"
     },
     {
-      titre: "A27",
+      titre: "A27 : reconnaitre le centre de symétrie d'une figure",
       image: "pdfs/4e/automatismes/4e_A27_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/S_b7oJaFI4Q?si=toAUGkJWn2LIOd7k",
+      entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=5GT1~t=8~n=6"
     },
     {
       titre: "A28",
