@@ -966,7 +966,7 @@ const AUTOMATISMES_DATA = {
     },
     {
       titre: "A24 : calculer double/ moitié, triple, quart, etc.",
-      image: "pdfs/4e/automatismes/4e_A24_image.pdf",
+      image: "pdfs/4e/automatismes/4e_A24_image.jpg",
       video: "",
       entrainement: "https://coopmaths.fr/alea/?uuid=26a94&id=6AutoP1-2&i=1&v=eleve&numerique=1&es=211100000"
     },
