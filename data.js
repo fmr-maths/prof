@@ -971,16 +971,16 @@ const AUTOMATISMES_DATA = {
       entrainement: "https://coopmaths.fr/alea/?uuid=26a94&id=6AutoP1-2&i=1&v=eleve&numerique=1&es=211100000"
     },
     {
-      titre: "A25",
+      titre: "A25 : additionner et soustraire des fractions",
       image: "pdfs/4e/automatismes/4e_A25_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/-tn8jGQjoGg?si=L9XDDswUCWCBjbIL",
+      entrainement: "https://coopmaths.fr/alea/?uuid=51ab4&id=5N3B&n=5&d=10&s=11*melange*0*0*0*1&i=1&cd=1&tip=0&v=eleve&numerique=1&es=211100000"
     },
     {
-      titre: "A26",
+      titre: "A26 : reconnaître médiatrice et hauteur dans un triangle",
       image: "pdfs/4e/automatismes/4e_A26_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/QUz2twimCk0?si=9ZYLDAiN9W4UQzpe",
+      entrainement: "https://coopmaths.fr/alea/?uuid=c7c78&id=5G5E-2&i=1&uuid=1d202&id=5G5E-1&i=1&uuid=0dbe7&id=6G3B&i=1&uuid=29407&id=6G3B-2&i=1&v=eleve&numerique=1&es=211100000"
     },
     {
       titre: "A27",
