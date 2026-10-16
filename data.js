@@ -989,16 +989,16 @@ const AUTOMATISMES_DATA = {
       entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=5GT1~t=8~n=6"
     },
     {
-      titre: "A28",
+      titre: "A28 : diviser par 10 ; 100 ; 1 000",
       image: "pdfs/4e/automatismes/4e_A28_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/shorts/SRnLD1DoUl0",
+      entrainement: "https://coopmaths.fr/alea/?uuid=df9d3&id=CM2N3B-4&v=eleve&numerique=1&es=211100000"
     },
     {
-      titre: "A29",
+      titre: "A29 : calculer volume d'un cube, d'un pavé droit et d'un prisme droit",
       image: "pdfs/4e/automatismes/4e_A29_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/kY0UFTL8KWo?si=cFUSRubF1nlmGTQP",
+      entrainement: "https://coopmaths.fr/alea/?uuid=f8019&id=can6M3-03&i=1&uuid=279da&id=5G2C-1&i=1&uuid=ac923&id=3AutoM07-2&i=1&v=eleve&numerique=1&es=211100000"
     },
     {
       titre: "A30",
