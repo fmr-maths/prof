@@ -647,14 +647,14 @@ const AUTOMATISMES_DATA = {
     {
       titre: "N16",
       image: "pdfs/5e/automatismes/5e_N16_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/-tn8jGQjoGg?si=L9XDDswUCWCBjbIL",
+      entrainement: "https://coopmaths.fr/alea/?uuid=51ab4&id=5N3B&n=5&d=10&s=11*melange*0*0*0*1&i=1&cd=1&tip=0&v=eleve&numerique=1&es=211100000"
     },
     {
       titre: "N17",
       image: "pdfs/5e/automatismes/5e_N17_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://www.youtube.com/watch?v=flwL9uaEWNM",
+      entrainement: "https://coopmaths.fr/alea/?uuid=26a94&id=6AutoP1-2&uuid=6796e&id=CM2N3A-14&v=eleve&es=211100000"
     },
     {
       titre: "N18",
@@ -681,20 +681,8 @@ const AUTOMATISMES_DATA = {
       entrainement: ""
     },
     {
-      titre: "N22",
+      titre: "N22, N23 et N24",
       image: "pdfs/5e/automatismes/5e_N22_image.pdf",
-      video: "",
-      entrainement: ""
-    },
-    {
-      titre: "N23",
-      image: "pdfs/5e/automatismes/5e_N23_image.pdf",
-      video: "",
-      entrainement: ""
-    },
-    {
-      titre: "N24",
-      image: "pdfs/5e/automatismes/5e_N24_image.pdf",
       video: "",
       entrainement: ""
     },
@@ -705,16 +693,10 @@ const AUTOMATISMES_DATA = {
       entrainement: ""
     },
     {
-      titre: "G1",
+      titre: "G1 et G2",
       image: "pdfs/5e/automatismes/5e_G1_image.pdf",
-      video: "",
-      entrainement: ""
-    },
-    {
-      titre: "G2",
-      image: "pdfs/5e/automatismes/5e_G2_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtu.be/SUbrvtGKO0c",
+      entrainement: "https://coopmaths.fr/alea/?uuid=50614&id=6N1G-1&i=1&uuid=46799&id=CM1N3J-flash1&i=1&v=eleve&numerique=1&es=211100000"
     },
     {
       titre: "G3 et G4",
