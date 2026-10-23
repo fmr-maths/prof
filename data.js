@@ -446,9 +446,9 @@ const AUTOMATISMES_DATA = {
     },
     {
       titre: "M5",
-      image: "pdfs/6e/automatismes/6e_M5_image.pdf",
+      image: "pdfs/6e/automatismes/6e_M5_image.png",
       video: "",
-      entrainement: ""
+      entrainement: "https://coopmaths.fr/alea/?uuid=cb91f&id=canc3M02&n=3&d=10&qcm=0&i=1&cd=1&tip=0&v=eleve&numerique=1&es=211100000"
     },
     {
       titre: "M6",
@@ -470,9 +470,9 @@ const AUTOMATISMES_DATA = {
     },
     {
       titre: "M9",
-      image: "pdfs/6e/automatismes/6e_M9_image.png",
-      video: "",
-      entrainement: "https://coopmaths.fr/alea/?uuid=cb91f&id=canc3M02&n=3&d=10&qcm=0&i=1&cd=1&tip=0&v=eleve&numerique=1&es=211100000"
+      image: "pdfs/6e/automatismes/6e_M9_image.pdf",
+      video: "https://youtu.be/yl-0fDDVs-4",
+      entrainement: "https://mathsmentales.net/wall.html?a=,fs=serif,t=&p=0~t=Diapo%201~c=1~o=true~d=normal~at=10~sl=0_i=6MC2~o=0~q=0.~t=8~n=4"
     },
     {
       titre: "M10",
