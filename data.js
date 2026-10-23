@@ -465,8 +465,8 @@ const AUTOMATISMES_DATA = {
     {
       titre: "M8",
       image: "pdfs/6e/automatismes/6e_M8_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtu.be/6SQLVcLPwNs",
+      entrainement: "https://coopmaths.fr/alea/?uuid=a17c6&id=can6M2-02&n=2&d=10&s=1&s2=true&s3=2&qcm=0&i=1&cd=1&tip=0&uuid=83be3&id=6M2autoC&n=2&d=10&s=4&s2=1&s3=2&i=1&cd=1&tip=0&v=eleve&numerique=1&es=211100000"
     },
     {
       titre: "M9",
