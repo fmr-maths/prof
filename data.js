@@ -376,13 +376,13 @@ const AUTOMATISMES_DATA = {
       titre: "N2",
       image: "pdfs/6e/automatismes/6e_N2_image.pdf",
       video: "",
-      entrainement: ""
+      entrainement: "https://coopmaths.fr/alea/?uuid=bcef9&id=6N2autoB-5&n=6&d=10&s=4&s2=3&s3=3&s4=1&i=1&cd=1&tip=0&v=eleve&numerique=1&es=211100000"
     },
     {
       titre: "N3",
       image: "pdfs/6e/automatismes/6e_N3_image.pdf",
-      video: "",
-      entrainement: ""
+      video: "https://youtube.com/shorts/Y6r6WkUO_SY?si=rlFdd8QK-QQLxZ-5",
+      entrainement: "https://coopmaths.fr/alea/?uuid=3a8f8&id=can6N22-03&n=3&d=10&i=1&cd=1&tip=0&uuid=93bb5&id=can6N21-01&n=3&d=10&qcm=0&i=1&cd=1&tip=0&v=eleve&numerique=1&es=211100000"
     },
     {
       titre: "N4",
