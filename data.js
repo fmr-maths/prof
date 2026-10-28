@@ -47,27 +47,27 @@ const SITE_DATA = {
     },
     {
       titre: "Chapitre 5 — Distance 2",
-      lecon: "pdfs/6e/6e_05_lecon.pdf",
+      lecon: "pdfs/6e/6e_05_Lecon.pdf",
       corrections: "pdfs/6e/6e_05_corr.pdf"
     },
     {
       titre: "Chapitre 6 — Fractions 2",
-      lecon: "pdfs/6e/6e_06_lecon.pdf",
+      lecon: "pdfs/6e/6e_06_Lecon.pdf",
       corrections: "pdfs/6e/6e_06_corr.pdf"
     },
     {
       titre: "Chapitre 7 — Angles 1",
-      lecon: "pdfs/6e/6e_07_lecon.pdf",
+      lecon: "pdfs/6e/6e_07_Lecon.pdf",
       corrections: "pdfs/6e/6e_07_corr.pdf"
     },
     {
       titre: "Chapitre 8 — Nombres décimaux 1",
-      lecon: "pdfs/6e/6e_08_lecon.pdf",
+      lecon: "pdfs/6e/6e_08_Lecon.pdf",
       corrections: "pdfs/6e/6e_08_corr.pdf"
     },
     {
       titre: "Chapitre 9 — Angles 2",
-      lecon: "pdfs/6e/6e_09_lecon.pdf",
+      lecon: "pdfs/6e/6e_09_Lecon.pdf",
       corrections: "pdfs/6e/6e_09_corr.pdf"
     },
     {
