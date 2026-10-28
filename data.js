@@ -164,22 +164,22 @@ const SITE_DATA = {
     },
     {
       titre: "Chapitre 5 — Expression Numérique 2",
-      lecon: "pdfs/5e/5e_05_Lecon.pdf",
+      lecon: "pdfs/5e/5e_05_lecon.pdf",
       corrections: "pdfs/5e/5e_05_corr.pdf"
     },
     {
       titre: "Chapitre 6 — Angles et droites 1",
-      lecon: "pdfs/5e/5e_06_Lecon.pdf",
+      lecon: "pdfs/5e/5e_06_lecon.pdf",
       corrections: "pdfs/5e/5e_06_corr.pdf"
     },
     {
       titre: "Chapitre 7 — Nombres relatifs 1",
-      lecon: "pdfs/5e/5e_07_Lecon.pdf",
+      lecon: "pdfs/5e/5e_07_lecon.pdf",
       corrections: "pdfs/5e/5e_07_corr.pdf"
     },
     {
       titre: "Chapitre 8 — Triangles et cercles 1",
-      lecon: "pdfs/5e/5e_08_Lecon.pdf",
+      lecon: "pdfs/5e/5e_08_lecon.pdf",
       corrections: "pdfs/5e/5e_08_corr.pdf"
     },
     {
