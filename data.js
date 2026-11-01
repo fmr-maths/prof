@@ -279,75 +279,80 @@ const SITE_DATA = {
       lecon: "pdfs/4e/4e_05_Lecon.pdf",
       corrections: "pdfs/4e/4e_05_corr.pdf"
     },
-    {
-      titre: "Chapitre 6 — Statistiques 2",
-      lecon: "pdfs/4e/4e_06_Lecon.pdf",
+      {
+      titre: "Chapitre 6 — Racine carrée",
+      lecon: "pdfs/4e/4e_06_lecon.pdf",
       corrections: "pdfs/4e/4e_06_corr.pdf"
     },
     {
-      titre: "Chapitre 7 — Théorème de Pythagore 1",
-      lecon: "pdfs/4e/4e_07_Lecon.pdf",
+      titre: "Chapitre 7 — Statistiques 2",
+      lecon: "pdfs/4e/4e_07_lecon.pdf",
       corrections: "pdfs/4e/4e_07_corr.pdf"
     },
     {
-      titre: "Chapitre 8 — Calcul avec les fractions 1",
-      lecon: "pdfs/4e/4e_08_Lecon.pdf",
+      titre: "Chapitre 8 — Théorème de Pythagore 1",
+      lecon: "pdfs/4e/4e_08_lecon.pdf",
       corrections: "pdfs/4e/4e_08_corr.pdf"
     },
     {
-      titre: "Chapitre 9 — Géométrie dans l'Espace 1",
-      lecon: "pdfs/4e/4e_09_Lecon.pdf",
+      titre: "Chapitre 9 — Calcul avec les fractions 1",
+      lecon: "pdfs/4e/4e_09_lecon.pdf",
       corrections: "pdfs/4e/4e_09_corr.pdf"
     },
     {
-      titre: "Chapitre 10 — Calcul avec les fractions 2",
+      titre: "Chapitre 10 — Géométrie dans l'Espace 1",
       lecon: "pdfs/4e/4e_10_Lecon.pdf",
       corrections: "pdfs/4e/4e_10_corr.pdf"
     },
     {
-      titre: "Chapitre 11 — Proportionnalité 1",
+      titre: "Chapitre 11 — Calcul avec les fractions 2",
       lecon: "pdfs/4e/4e_11_Lecon.pdf",
       corrections: "pdfs/4e/4e_11_corr.pdf"
     },
     {
-      titre: "Chapitre 12 — Théorème de Pythagore 2",
+      titre: "Chapitre 12 — Proportionnalité 1",
       lecon: "pdfs/4e/4e_12_Lecon.pdf",
       corrections: "pdfs/4e/4e_12_corr.pdf"
     },
     {
-      titre: "Chapitre 13 — Proportionnalité 2",
+      titre: "Chapitre 13 — Théorème de Pythagore 2",
       lecon: "pdfs/4e/4e_13_Lecon.pdf",
       corrections: "pdfs/4e/4e_13_corr.pdf"
     },
     {
-      titre: "Chapitre 14 — Thalès",
+      titre: "Chapitre 14 — Proportionnalité 2",
       lecon: "pdfs/4e/4e_14_Lecon.pdf",
       corrections: "pdfs/4e/4e_14_corr.pdf"
     },
     {
-      titre: "Chapitre 15 — Calcul littéral 3",
+      titre: "Chapitre 15 — Thalès",
       lecon: "pdfs/4e/4e_15_Lecon.pdf",
       corrections: "pdfs/4e/4e_15_corr.pdf"
     },
     {
-      titre: "Chapitre 16 — Géométrie dans l'Espace 2",
+      titre: "Chapitre 16 — Calcul littéral 3",
       lecon: "pdfs/4e/4e_16_Lecon.pdf",
       corrections: "pdfs/4e/4e_16_corr.pdf"
     },
     {
-      titre: "Chapitre 17 — Proportionnalité 3",
+      titre: "Chapitre 17 — Géométrie dans l'Espace 2",
       lecon: "pdfs/4e/4e_17_Lecon.pdf",
       corrections: "pdfs/4e/4e_17_corr.pdf"
     },
     {
-      titre: "Chapitre 18 — Proportionnalité 4",
+      titre: "Chapitre 18 — Proportionnalité 3",
       lecon: "pdfs/4e/4e_18_Lecon.pdf",
       corrections: "pdfs/4e/4e_18_corr.pdf"
     },
     {
-      titre: "Chapitre 19 — Puissances",
+      titre: "Chapitre 19 — Proportionnalité 4",
       lecon: "pdfs/4e/4e_19_Lecon.pdf",
       corrections: "pdfs/4e/4e_19_corr.pdf"
+    },
+    {
+      titre: "Chapitre 20 — Puissances",
+      lecon: "pdfs/4e/4e_20_Lecon.pdf",
+      corrections: "pdfs/4e/4e_20_corr.pdf"
     }
   ]
 };
