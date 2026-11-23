@@ -170,7 +170,8 @@ const SITE_DATA = {
     {
       titre: "Chapitre 6 — Angles et droites 1",
       lecon: "pdfs/5e/5e_06_lecon.pdf",
-      corrections: "pdfs/5e/5e_06_corr.pdf"
+      corrections: "pdfs/5e/5e_06_corr.pdf",
+      jeu: "pdfs/5e/5e_06_jeu.html"
     },
     {
       titre: "Chapitre 7 — Nombres relatifs 1",
